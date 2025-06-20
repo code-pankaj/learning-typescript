@@ -32,3 +32,13 @@ export {} --> What does this do ??
 // The property __esModule with value true is added to the exports object
 // This flag helps module systems distinguish between ES modules and CommonJS modules
 // This is particularly important when using features like default exports, as it helps maintain compatibility between ES modules and CommonJS modules in environments that support both module systems.
+
+
+// function add(num:number):number{
+    return num + 5;
+}
+
+above the outside number represents the return type
+
+// There will be cases where we will be returning multiple types will learn that later only
+
