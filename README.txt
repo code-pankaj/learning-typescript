@@ -145,3 +145,18 @@ didn't understand much here
 
 
 
+---> Generics <---
+
+to reuse the code 
+
+function name<Type>(arg: Type): Type{
+    return arg
+}
+
+we can write anything at the place of type just make sure the three match and it is better than any as it logs all the details
+
+we can also make our own interface then pass it as a type 
+
+
+---> Narrowing <---
+
