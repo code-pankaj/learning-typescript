@@ -83,3 +83,10 @@ let superheroes: string[] = ["thor", "ironman", "spiderman"]
 let heroPower: Array<string> = ["lightning", "intelligence", "danger-sensor"]
 
 let variableName: Array<Type> =[]
+
+
+---> Union <---
+
+allow multiple types 
+
+let score: number | string = 33 
