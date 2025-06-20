@@ -90,3 +90,17 @@ let variableName: Array<Type> =[]
 allow multiple types 
 
 let score: number | string = 33 
+
+
+---> Tuples <---
+
+Tuples help in ordering the data
+
+first string then number and so only
+
+
+---> Enums <---
+
+
+Gives us options 
+
