@@ -111,3 +111,17 @@ mostly similar to type or class
 
 interface can be reopened and added new properties but in types we can't do that 
 
+
+---> Classes <---
+
+
+class User {
+    email: string
+    name: string
+    constructor(email:string, name: string){
+        this.email = email
+        this.name = name
+    }
+}
+
+const newUser = new User("pankaj@gmail.com", "Pankaj")
