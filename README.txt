@@ -104,3 +104,10 @@ first string then number and so only
 
 Gives us options 
 
+---> Interface <---
+
+
+mostly similar to type or class 
+
+interface can be reopened and added new properties but in types we can't do that 
+
