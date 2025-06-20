@@ -1,0 +1,34 @@
+// Notes are present in this file -- > 
+
+---> Types & Inference <---  
+
+let variableName: Type = value; --> tpyes are string, number, boolean, etc..
+                 ^ we can avoid that type in someplaces ts will automatically knows like js that we are using string, num or boolean [This is known as TYPE INFERENCE ]
+But in somecases it is compulsory to use them
+
+// let name: string = "Pankaj" --> Explicit Typing
+
+// let age = 19 --> Implicit Typing
+
+
+export {} --> What does this do ??
+
+
+---> Functions <---
+
+
+// "use strict"; --> This line is not explicitly added in the function.js after transpilation, but it is implied in the generated JavaScript code when using TypeScript with the "module" option set to "commonjs" or "esnext".
+// This line is not explicitly present in the TypeScript code, but it is a common practice
+// in JavaScript to enable strict mode, which helps catch common coding errors and "unsafe"
+// actions, such as using undeclared variables or assigning values to read-only properties.
+
+
+// Object.defineProperty(exports, "__esModule", { value: true }); --> This line will be added in the function.js after transpilation
+
+// This above line will typically added by TypeScript transpilation when converting TypeScript modules to CommonJS format:
+
+// It marks the JavaScript module as originating from an ES module
+// exports is the CommonJS module.exports object
+// The property __esModule with value true is added to the exports object
+// This flag helps module systems distinguish between ES modules and CommonJS modules
+// This is particularly important when using features like default exports, as it helps maintain compatibility between ES modules and CommonJS modules in environments that support both module systems.
