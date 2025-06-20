@@ -125,3 +125,23 @@ class User {
 }
 
 const newUser = new User("pankaj@gmail.com", "Pankaj")
+
+
+---> Why Interface are better <---
+
+nothing here yet
+
+
+
+---> Interface, Class, Type Difference <---
+
+nothing here too..
+
+
+
+---> Abstract <---
+
+didn't understand much here 
+
+
+
