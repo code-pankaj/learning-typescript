@@ -160,3 +160,16 @@ we can also make our own interface then pass it as a type
 
 ---> Narrowing <---
 
+
+---> Typeof, Instanceof <---
+
+
+Instanceof helps us check if the type was a instance of something like date, array or interface 
+
+
+---> Type Predicates <---
+
+
+
+---> Discriminated Union <---
+
