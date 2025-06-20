@@ -42,3 +42,36 @@ above the outside number represents the return type
 
 // There will be cases where we will be returning multiple types will learn that later only
 
+
+---> Objects <---
+
+
+
+
+---> Types Alias <---
+
+type myString = string 
+// now you can use myString at the place of string 
+
+type User = {
+    name: string,
+    age: number,
+    email: string,
+}
+
+function createUser(user: User){}
+// Here above i created my own type User then the user in the function should follow that convention
+
+
+-->  READONLY <---
+
+if we put readonly in front of a variable or type it will not be changed 
+we can also do optional for a type like if user have a credit card or not by just putting a question mark in front
+type User = {
+    readonly _id: string
+    name: string,
+    email: string,
+    isActive: boolean,
+    creditCardNumber?: number
+}
+
